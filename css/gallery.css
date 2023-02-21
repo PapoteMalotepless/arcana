@@ -1,0 +1,164 @@
+@import url(http://fonts.googleapis.com/css?family=Dosis:400,200,300,500,600,700,800);
+@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,200,700);
+
+body {
+    background-color: #222;
+    font-family: 'Dosis', sans-serif;
+    font-size: 17px;
+    color: #fff
+  }
+
+  /** Header **/
+  .header-top {
+    display: block;
+    overflow: hidden;
+    padding: 25px;
+  }
+  
+  .main-nav {
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+  }
+  
+  .main-nav 
+  .container {
+    width: 100%
+  }
+  
+  .social-icons a {
+    font-size: 18px;
+    color: #fff;
+    padding-left:20px;  
+  }
+  
+  .social-icons .fa-facebook:hover {
+    color: #3B5997
+  }
+  
+  .social-icons .fa-twitter:hover {
+    color:#29C5F6
+  }
+  
+  .social-icons .fa-google-plus:hover {
+    color:#D13D2F
+  }
+  
+  .social-icons .fa-youtube:hover{
+    color: #ec5538
+  }
+  
+  .navbar-brand {
+    background-color: #5e2a66;
+    height: 90px;
+    margin-bottom: 20px;
+    position: relative;
+    width: 297px;
+  }
+  
+  .navbar-brand img {
+    position: absolute;
+    top: 2px;
+  }
+  
+  .navbar-right {
+    background-color: #5e2a66;
+    padding:0 95px 0 0;
+    opacity: .9
+  }
+  
+  .navbar-right li a {
+    padding: 35px 21px;
+    font-size: 22px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Yanone Kaffeesatz', 'sans-serif';
+    font-weight: 300;
+  }
+  
+  .navbar-right li a:hover, 
+  .navbar-right li a:focus,  
+  .navbar-right .active a {
+    background-color: #b16cae;
+    color: #97acb2
+  }
+  
+  
+  .fixed-menu {
+    background-color: #1B7B98;
+    position: fixed;
+    top: 0;
+  }
+  
+  .fixed-menu .navbar-right {
+    padding: 0;
+  }
+  
+  
+  .fixed-menu .navbar-right li a {
+    font-size: 18px;
+    padding: 20px 25px;
+    text-shadow:inherit;
+  }
+  
+  .fixed-menu .navbar-brand {
+    height: 60px;
+    margin-top: 0;
+    padding: 0;
+    margin-bottom: 0;
+    width: 125px;
+  }
+  
+  .fixed-menu .navbar-brand img {
+    height:60px;
+    top: 0;
+  }
+  
+  .fixed-menu .header-top {
+    display: none;
+  }
+
+ section {
+    display:flex;
+    width: 600px;
+    height: 430px;
+    margin-top: 10%;
+    margin-left: 34%;
+  }
+  
+  section img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .9;
+    transition: .5s ease;
+  }
+  
+  section img:hover{
+      cursor: crosshair;
+      width: 500px;
+      opacity: 1;
+      filter: contrast(120%)
+  }
+  
+
+  #footer {
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 35px 0;
+    margin-top: 10%;
+    text-align: center;
+  }
+  
+  #footer a {
+    color:#f7ab24
+  }
+  
+  #footer a:hover {
+    color:#1B7B98
+  }
+  
+  
